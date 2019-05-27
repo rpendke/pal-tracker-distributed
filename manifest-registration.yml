@@ -2,7 +2,7 @@ applications:
 - name: tracker-registration
   path: ./applications/registration-server/build/libs/registration-server.jar
   routes:
-  - route: registration-pal-RP.apps.chicken.pal.pivotal.io.RP3
+  - route: registration-pal-rp.apps.evans.pal.pivotal.io
   memory: 1G
   instances: 1
   env:
