@@ -20,7 +20,7 @@ jobs:
       install: skip
 
       before_script:
-        - chmod 777
+        - chmod 777 gradlew
         - mysql -uroot < databases/create_databases.sql
         - ./gradlew testMigrate
       script:
@@ -44,7 +44,7 @@ jobs:
         mariadb: '10.2'
       install: skip
       before_script:
-        - chmod 777
+        - chmod 777 gradlew
         - mysql -uroot < databases/create_databases.sql
         - ./gradlew testMigrate
       script:
@@ -64,7 +64,7 @@ jobs:
         mariadb: '10.2'
       install: skip
       before_script:
-        - chmod 777
+        - chmod 777 gradlew
         - mysql -uroot < databases/create_databases.sql
         - ./gradlew testMigrate
       script:
@@ -84,7 +84,7 @@ jobs:
         mariadb: '10.2'
       install: skip
       before_script:
-        - chmod 777
+        - chmod 777 gradlew
         - mysql -uroot < databases/create_databases.sql
         - ./gradlew testMigrate
       script:
